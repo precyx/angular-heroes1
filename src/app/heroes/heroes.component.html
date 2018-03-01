@@ -2,7 +2,10 @@
 <h2>Hero Component</h2>
 
 <ul class="heroes">
-  <li *ngFor="let hero of heroes" class="hero" (click)="selectHero(hero)">
+  <li class="hero"
+  *ngFor="let hero of heroes"
+  (click)="selectHero(hero)"
+  [class.selected]="hero === selectedHero">
     <div>{{hero.name}}</div>
   </li>
 </ul>
