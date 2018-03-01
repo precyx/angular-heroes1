@@ -1,0 +1,5 @@
+.heroes { display: flex; flex-wrap: wrap;  flex-flow: column; padding-left:0;}
+.heroes li {background: #f7f7f7;display: inline-block;padding: 5px 10px;border-radius: 8px;margin-bottom: 5px;cursor: pointer; }
+.heroes li:hover {background:#f3f3f3;}
+/* @selected */
+.heroes li.selected {background:#f3f3f3; border: 1px solid #949494;}
